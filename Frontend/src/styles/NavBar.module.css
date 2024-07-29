@@ -1,0 +1,43 @@
+.navBar {
+    background-color: #e7e5df;
+    font-family: 'Impact', 'fantasy';
+}
+
+.wrapper{
+    color:  #393e41;
+    font-family: "Georgia", serif ;
+    font-style: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.bold{
+    color:  #393e41;
+    font-family: "Georgia", serif ;
+    font-weight: bold;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.navBarToggle{
+    background-color: #393e41;
+    color: #E7E5DF;
+    font-family: 'Impact', 'fantasy';
+    font-weight: 700;
+    /* padding: 10px 20px; */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* font-size: 1rem; */
+    transition: background-color 0.3s, color 0.3s;
+    /* Smooth transition for hover effect */
+    margin-top: 10px;
+}
+
+.navBarToggle:hover {
+    background-color: #44bba4;
+    /* box-shadow: rgba(0, 0, 0, 0.705) 0px 6px 15px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
+    color: #393e41;
+}

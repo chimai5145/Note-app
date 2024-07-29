@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  background: #468c98;
+  font-family: 'Georgia', 'Times New Roman', Times, serif; /* Changed font family */
+  font-size: 16px; /* Added font size */
+  font-weight: 400; /* Normal font weight */
+  font-style: normal; /* Normal font style */
+  line-height: 1.6; /* Line height */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Georgia", serif;  /* Changed font family */
+  font-size: 14px; /* Added font size */
+  font-weight: 700; /* Bold font weight */
+  font-style: bold; /* Italic font style */
+  line-height: 1.4; /* Line height */
+}
