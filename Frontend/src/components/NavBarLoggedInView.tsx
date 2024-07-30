@@ -22,7 +22,7 @@ const NavBarLoggedInView = ({user, onLogOutSuccessful} : NavBarLoggedInViewProps
     return (  
         <>
         <Navbar.Text className={style.wrapper}>
-            Signed in as: <span className={style.bold}> {user.username}</span>
+            Signed in as: <span className={style.text}>  {user.username}</span>
         </Navbar.Text>
         <Button onClick={logOut} className={style.navBarToggle}>Log out</Button>
         </>

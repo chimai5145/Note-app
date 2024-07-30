@@ -1,24 +1,24 @@
 .navBar {
     background-color: #e7e5df;
     font-family: 'Impact', 'fantasy';
+
 }
 
 .wrapper{
+    display: flex;
+    align-items: center;
     color:  #393e41;
     font-family: "Georgia", serif ;
-    font-style: bold;
-    padding: 10px 15px 10px 15px;
+    padding: 20px;
     border: none;
     border-radius: 5px;
 }
 
-.bold{
+.text{
     color:  #393e41;
     font-family: "Georgia", serif ;
     font-weight: bold;
-    padding: 5px 5px;
-    border: none;
-    border-radius: 5px;
+    margin-left: 5px;
 }
 
 .navBarToggle{
