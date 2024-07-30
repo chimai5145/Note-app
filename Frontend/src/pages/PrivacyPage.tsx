@@ -1,7 +1,9 @@
+import stylePage from "../styles/NotePage.module.css";
+
 const PrivacyPage = () => {
     return ( 
         <div>
-            <p>We care about your privacy!</p>
+            <p className={stylePage.text}>We care about your privacy!</p>
         </div>
      );
 }

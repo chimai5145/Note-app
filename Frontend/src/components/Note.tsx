@@ -47,7 +47,7 @@ const Note = ({ note, className, onDeleteNoteClicked , onNoteClicked}: NoteProps
                 </Card.Text>
 
             </Card.Body>
-            <Card.Footer className={`text-muted ${style.cardTitle}` }>
+            <Card.Footer className={`text-muted ${style.cardFooter}` }>
                 {createdUpdatedText}
             </Card.Footer>
         </Card>

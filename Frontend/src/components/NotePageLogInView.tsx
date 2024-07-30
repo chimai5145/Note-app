@@ -48,7 +48,7 @@ const NotePageLogInView = () => {
         <Row xs={1} md={2} xl={3} className="g-4">
 
             {notes.map(note => (
-                <Col key={note._id}>
+                <Col  className="d-flex justify-content-center align-items-center" key={note._id}>
                     <Note
                         note={note}
                         className={styles.note}

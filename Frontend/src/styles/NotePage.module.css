@@ -7,7 +7,7 @@
 
 .note {
     height: 300px;
-    width: max-content;
+    width: 85%;
     transition: box-shadow .2s ease-in-out;
     cursor: pointer;
     margin: 10px;
@@ -15,4 +15,13 @@
 
 .note:hover {
     box-shadow: rgba(0, 0, 0, 0.705) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.text {
+    color: #E7E5DF;
+    display: flex;
+    justify-content: center;
+    font-family: 'Impact', 'fantasy';
+    padding: 10px 20px;
+    font-weight: 700;
 }

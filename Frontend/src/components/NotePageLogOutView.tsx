@@ -1,11 +1,8 @@
+import stylePage from "../styles/NotePage.module.css";
+
 const NotePageLogOutView = () => {
     return (
-        <p style={{
-            color: '#E7E5DF', 
-            fontFamily: 'Impact, fantasy',
-            padding: "10px 20px",
-            fontWeight: "700"
-        }} > 
+        <p className={stylePage.text}> 
         Log in to see note
         </p>
     );
