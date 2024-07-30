@@ -3,7 +3,7 @@ import stylePage from "../styles/NotePage.module.css";
 const PrivacyPage = () => {
     return ( 
         <div>
-            <p className={stylePage.text}>We care about your privacy!</p>
+            <p className={`${stylePage.text} m-4`}>We care about your privacy!</p>
         </div>
      );
 }

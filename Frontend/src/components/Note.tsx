@@ -40,6 +40,7 @@ const Note = ({ note, className, onDeleteNoteClicked , onNoteClicked}: NoteProps
                             onDeleteNoteClicked(note);
                             e.stopPropagation();
                         }}
+                        style={{ fontSize: '120%' }}
                         />
                 </Card.Title>
                 <Card.Text className={style.cardText}>

@@ -14,16 +14,16 @@ interface NavBarProps {
 
 const NavBar = ({ loggedInUser, onSignUpClicked, onLogInClicked, onLogOutSuccessful }: NavBarProps) => {
     return (
-        <Navbar className={style.navBar} expand="sm" sticky="top">
+        <Navbar className={style.navBar} expand="md" sticky="top">
             <Container>
                 <Navbar.Brand as={Link} to="/">
-                    Note
+                    Cool Note App
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="main-navbar" />
                 <Navbar.Collapse id="main-navbar">
                     <Nav className={style.wrapper}>
-                        <Nav.Link as={Link} to = "/privacy">
-                                Privacy
+                        <Nav.Link className={style.text} as={Link} to="/privacy">
+                            Privacy
                         </Nav.Link>
                     </Nav>
                     <Nav className="ms-auto">
