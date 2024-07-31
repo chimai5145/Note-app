@@ -57,7 +57,7 @@ const Note = ({ note, className, onDeleteNoteClicked, onNoteClicked }: NoteProps
                     />
                 </Card.Title>
                 {/* <Card.Text className={`${style.cardText} ${isOverflowing ? style.overflowGradient : ''}`}> */}
-                <Card.Text className={style.cardText}>
+                <Card.Text className={ !!text ? style.cardText : style.cardTextNoContent}>
                     {text}
                 </Card.Text>
 

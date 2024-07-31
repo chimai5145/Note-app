@@ -35,6 +35,7 @@
     overflow: hidden;
     position: relative;
 }
+
 .cardText::after {
     content: '';
     position: absolute;
@@ -44,4 +45,20 @@
     height: 40px;
     background: linear-gradient(transparent, #232a32);
     pointer-events: none;
+}
+
+
+.cardTextNoContent {
+    background-color: #393e41;
+    border: 2px solid #000000;
+    padding: 16px;
+    margin: 12px;
+    border-radius: 8px;
+    font-family: Georgia, serif;
+    font-size: medium;
+    white-space: pre-line;
+    height: 150px;
+    color: #ffff;
+    overflow: hidden;
+    position: relative;
 }
